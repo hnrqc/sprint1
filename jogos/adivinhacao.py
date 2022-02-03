@@ -6,7 +6,16 @@ chute = input("Digite Seu Numero: ")
 chute = int(chute)
 print("Você Digitou", chute)
 
-if (numero_secreto == chute):
+acertou = numero_secreto == chute
+maior   = chute > numero_secreto
+menor   = chute < numero_secreto
+if (acertou):
     print("Você Acertou!!")
 else:
-    print("Você errou")
+    if(maior):
+        print("O seu chute foi pra cima")
+    elif (menor):
+        print("O seu chute foi pra baixo")
+
+
+print("Fim Do Jogo")
