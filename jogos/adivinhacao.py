@@ -18,4 +18,4 @@ else:
         print("O seu chute foi pra baixo")
 
 
-print("Fim Do Jogo")
+print("Fim Do Jogo.")
