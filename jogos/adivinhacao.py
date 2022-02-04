@@ -1,7 +1,10 @@
+import random
+print("********************************")
 print("BEM VINDO AO JOGO DE ADIVINHAÇÃO")
+print("********************************")
 
-
-numero_secreto = 42
+numero_secreto = random.randrange(1,101)
+print(numero_secreto)
 total_de_tentativas = 3
 
 
