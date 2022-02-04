@@ -1,6 +1,6 @@
 import random
 
-def jogar_adivinhacao()
+def jogar():
     print("********************************")
     print("BEM VINDO AO JOGO DE ADIVINHAÇÃO")
     print("********************************")
@@ -10,7 +10,7 @@ def jogar_adivinhacao()
     pontos = 1000
 
     #print(numero_secreto)
-    print("{}".format(3//1.8))
+
 
 
     print("Qual nível de dificuldade?")
